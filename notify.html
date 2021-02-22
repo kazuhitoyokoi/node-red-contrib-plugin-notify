@@ -1,0 +1,5 @@
+<script type='text/javascript'>
+    RED.comms.subscribe('notify', function (type, body) {
+        RED.notify(body.message, body.options);
+    });
+</script>
