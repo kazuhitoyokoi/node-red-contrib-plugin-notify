@@ -1,6 +1,8 @@
 # node-red-contrib-plugin-notify
 Custom notification dialog for Node-RED flow editor
 
+**Requires Node-RED 1.3 or later.**
+
 Install
 -------
 
@@ -99,3 +101,11 @@ module.exports = {
 _Screenshot when an update is detected_
 
 ![](update.png)
+
+Install this plugin to Node-RED 1.2
+-------
+
+If you want to try this plugin on Node-RED 1.2, you can install it as a node using the old version. 
+        
+        npm install node-red-contrib-plugin-notify@0.0.3
+

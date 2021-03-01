@@ -1,6 +1,6 @@
 {
   "name": "node-red-contrib-plugin-notify",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Custom notification dialog for Node-RED flow editor",
   "repository": {
     "type": "git",
@@ -8,9 +8,6 @@
   },
   "keywords": [ "node-red", "notify", "notification" ],
   "node-red": {
-    "nodes": {
-      "notify": "notify.js"
-    },
     "plugins": {
       "notify": "notify.js"
     }

@@ -14,10 +14,5 @@ module.exports = function (RED) {
             res.json({ status: 'success', body: req.body });
         });
     }
-
-    //RED.plugins.registerPlugin('notify', {
-    //    type: 'notify',
-    //    onadd: function () { console.log('onadd()'); },
-    //    onremove: function () { console.log('onremove()'); }
-    //});
+    RED.plugins.registerPlugin('notify', { type: 'notify' });
 };
